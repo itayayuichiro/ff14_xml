@@ -1,0 +1,1362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:admin="http://webns.net/mvcb/"
+ xmlns:atom="http://www.w3.org/2005/Atom"
+>
+<channel rdf:about="https://ff14.masyumaroking.com/">
+<title>【FF14】ララフェルのPVP情報局</title>
+<link>https://ff14.masyumaroking.com/</link>
+<description>
+</description>
+<dc:language>ja</dc:language>
+<admin:generatorAgent rdf:resource="http://blog.livedoor.com/?v=2.0" />
+<atom:link rel="hub" href="http://pubsubhubbub.appspot.com" />
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="https://ff14.masyumaroking.com/archives/5284505.html" />
+  <rdf:li rdf:resource="https://ff14.masyumaroking.com/archives/5275994.html" />
+  <rdf:li rdf:resource="https://ff14.masyumaroking.com/archives/5262717.html" />
+  <rdf:li rdf:resource="https://ff14.masyumaroking.com/archives/5257564.html" />
+  <rdf:li rdf:resource="https://ff14.masyumaroking.com/archives/5254505.html" />
+  <rdf:li rdf:resource="https://ff14.masyumaroking.com/archives/5233483.html" />
+  <rdf:li rdf:resource="https://ff14.masyumaroking.com/archives/5230853.html" />
+  <rdf:li rdf:resource="https://ff14.masyumaroking.com/archives/5217111.html" />
+  <rdf:li rdf:resource="https://ff14.masyumaroking.com/archives/5217066.html" />
+  <rdf:li rdf:resource="https://ff14.masyumaroking.com/archives/5212728.html" />
+ </rdf:Seq>
+</items>
+</channel>
+<item rdf:about="https://ff14.masyumaroking.com/archives/5284505.html">
+<title>FF14 PvP初心者向け入門ガイド</title>
+<link>https://ff14.masyumaroking.com/archives/5284505.html</link>
+<description>
+  FF14 PvP初心者向け入門ガイド
+
+  
+    はじめに
+    PvP（プレイヤー対プレイヤー）コンテンツは、最初は挑戦するのに躊躇するかもしれません。自分も最初は迷惑かけていないかなとはかなり不安でした。ただ、一度慣れると非常に楽しく、ハマる人はどハマりするコンテン...</description>
+<dc:creator>masyumaroking</dc:creator>
+<dc:date>2024-11-26T13:20:59+09:00</dc:date>
+<dc:subject></dc:subject>
+<content:encoded><![CDATA[<article class="pvp-guide">
+  <h1>FF14 PvP初心者向け入門ガイド</h1>
+
+  <section class="introduction">
+    <h2>はじめに</h2>
+    <p>PvP（プレイヤー対プレイヤー）コンテンツは、最初は挑戦するのに躊躇するかもしれません。自分も最初は迷惑かけていないかなとはかなり不安でした。ただ、一度慣れると非常に楽しく、ハマる人はどハマりするコンテンツとなっています。この記事では、FF14のPvPの魅力と基本的な始め方について詳しく解説します。</p>
+  </section>
+
+  <section class="pvp-modes">
+    <h2>PvPのモード</h2>
+    <p>FF14のPvPには主に2つのモードがあります。それぞれ特徴が異なるので、自分に合ったモードを選んでみましょう。</p>
+
+    <h3>フロントライン</h3>
+    <p>フロントラインは、24対24対24の大規模な戦闘モードです。以下の特徴があります：</p>
+    <ul>
+      <li>3つのグランドカンパニーが競い合う</li>
+      <li>広大なマップでの戦略的な戦闘</li>
+      <li>オブジェクティブの確保や敵の撃破でポイントを獲得</li>
+      <li>個々ではなく集団の力で勝利を目指す</li>
+      <li>1試合あたり約20分程度の長さ</li>
+    </ul>
+    <p>初心者の方でも、大人数の中に混ざることで比較的気軽に参加できます。</p>
+
+    <h3>クリスタルコンフリクト</h3>
+    <p>クリスタルコンフリクトは、5対5の少人数戦です。主な特徴は以下の通りです：</p>
+    <ul>
+      <li>より個人のスキルが問われる</li>
+      <li>短時間（約5分）で決着がつく</li>
+      <li>クリスタルを運ぶという明確な目標</li>
+      <li>狭いマップでの激しい攻防戦</li>
+    </ul>
+    <p>個人の力量がより直接的に結果に影響するため、上達を実感しやすいモードです。</p>
+  </section>
+
+  <section class="class-roles">
+    <h2>クラスの特性を活かす</h2>
+    <p>PvPでは、自分のクラスの特性を理解し、活かすことが重要です。以下に代表的なロールとその役割を紹介します：</p>
+    <ul>
+      <li><strong>タンク（ナイト、戦士など）：</strong>味方を守り、敵の攻撃を引き付けたりスタンさせたりして妨害する。</li>
+      <li><strong>ヒーラー（白魔道士、学者など）：</strong>味方のHPを回復し、サポートしつつ敵にダメージを与える。</li>
+      <li><strong>近接DPS（モンク、忍者など）：</strong>敵の後衛を狙い、瞬間火力でキルを狙いに行く。</li>
+      <li><strong>遠隔DPS（黒魔道士、機工士など）：</strong>安全な位置から継続的にダメージを与える。</li>
+    </ul>
+    <p>自分のクラスのPvPスキルをよく確認し、練習を重ねることで効果的な立ち回りができるようになります。</p>
+  </section>
+
+  <section class="tips">
+    <h2>PvPを楽しむコツ</h2>
+
+    <h3>チームワークの重要性</h3>
+    <p>PvPでは、個人の実力も大切ですが、チームとしての連携がより重要です。以下のポイントを意識しましょう：</p>
+    <ul>
+      <li>味方との位置取りを意識する</li>
+      <li>敵の動きを味方に伝える</li>
+      <li>味方のサポートを積極的に行う</li>
+    </ul>
+
+    <h3>マップの理解</h3>
+    <p>各PvPモードのマップには特徴があります。以下の点に注意しましょう：</p>
+    <ul>
+      <li>オブジェクティブの位置</li>
+      <li>有利な地形の把握</li>
+      <li>敵からの視線が通りにくい場所の確認</li>
+    </ul>
+
+  </section>
+
+  <section class="advice">
+    <h2>上達のためのアドバイス</h2>
+
+    <h3>練習の重要性</h3>
+    <p>PvPで上達するには継続的な練習が欠かせません：</p>
+    <ul>
+      <li>毎日少しずつでもPvPに参加する</li>
+      <li>自分のプレイを振り返り、改善点を見つける</li>
+      <li>他のプレイヤーの動きを観察し、学ぶ</li>
+    </ul>
+
+    <h3>負けを恐れない</h3>
+    <p>PvPでは勝敗がつきものです。負けても気落ちせず、次につなげることが大切です：</p>
+    <ul>
+      <li>敗因を冷静に分析する</li>
+      <li>味方を責めるのではなく、自分の改善点を探す</li>
+      <li>小さな進歩や成功を喜ぶ</li>
+    </ul>
+
+    <h3>情報収集</h3>
+    <p>最新のPvP情報を常にチェックすることで、メタの変化にも対応できます：</p>
+    <ul>
+      <li>公式フォーラムやファンサイトをチェックする</li>
+      <li>強いプレイヤーの配信を見る</li>
+      <li>PvPコミュニティに参加し、情報交換する</li>
+    </ul>
+
+  </section>
+
+  <section class="conclusion">
+    <h2>おわりに</h2>
+
+    <p>PvPは最初は難しく感じるかもしれませんが、上記のアドバイスを参考に少しずつ挑戦していけば、必ず楽しさを見出せるはずです。失敗を恐れず、積極的にPvPの世界に飛び込んでみてください。きっと新しいFF14の楽しみ方を発見できるでしょう。</p>
+
+  </section>
+
+</article>
+
+<style>
+  .pvp-guide {
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  h1, h2, h3 {
+    color: #333;
+  }
+  ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  section {
+    margin-bottom: 20px;
+  }
+</style>
+
+]]>
+</content:encoded>
+</item>
+<item rdf:about="https://ff14.masyumaroking.com/archives/5275994.html">
+<title>FF14 白魔道士の立ち回り｜クリスタルコンフリクト【PVP】で最強のヒーラーを目指せ！</title>
+<link>https://ff14.masyumaroking.com/archives/5275994.html</link>
+<description>
+  FF14 白魔道士の立ち回り｜クリスタルコンフリクト【PVP】で最強のヒーラーを目指せ！
+
+  
+    はじめに
+    クリスタルコンフリクトにおいて、白魔道士は回復だけでなく、強力な攻撃スキルも持ち合わせているため、チームの勝利に大きく貢献できるヒーラーです。この記事...</description>
+<dc:creator>masyumaroking</dc:creator>
+<dc:date>2024-11-25T13:11:22+09:00</dc:date>
+<dc:subject></dc:subject>
+<content:encoded><![CDATA[<article class="whm-pvp-guide">
+  <h1>FF14 白魔道士の立ち回り｜クリスタルコンフリクト【PVP】で最強のヒーラーを目指せ！</h1>
+
+  <section class="introduction">
+    <h2>はじめに</h2>
+    <p>クリスタルコンフリクトにおいて、白魔道士は回復だけでなく、強力な攻撃スキルも持ち合わせているため、チームの勝利に大きく貢献できるヒーラーです。この記事では、白魔道士の強みを最大限に活かし、クリスタルコンフリクトで勝利を掴むための立ち回りを解説します。基本的なスキル回しから、状況に応じた判断、そしてチームとの連携まで、白魔道士でクリスタルコンフリクトを極めたいプレイヤーに向けて、役立つ情報を網羅的に紹介します。</p>
+  </section>
+
+  <section class="skills">
+    <h2>白魔道士の基本スキル解説</h2>
+    <p>白魔道士は、回復スキルだけでなく、強力な攻撃スキルやデバフスキルも持ち合わせています。</p>
+    <ul>
+      <li><strong>攻撃スキル</strong>
+        <ul>
+          <li><strong>グレアガ:</strong> 遠距離魔法攻撃。何もスキルが使えない場合に打つスキル。</li>
+          <li><strong>ハート・オブ・ミゼリ:</strong> 範囲魔法攻撃。強力なダメージを与え、敵のHPを大きく削り取ることができます。</li>
+          <li><strong>セラフストライク:</strong> 敵に接近してその周囲の敵に範囲魔法攻撃。強力な攻撃スキル「グレアジャ」と回復スキル「ケアルガ」を使うことができるようになります。</li>
+          <li><strong>グレアジャ:</strong> 範囲魔法攻撃。グレアガの強化版で、より範囲にダメージを与えられます。</li>
+          <li><strong>ハート・オブ・パーゲーション:</strong> 前方直線範囲魔法攻撃。高火力でヒットした敵をスタンさせることができます。</li>
+        </ul>
+      </li>
+      <li><strong>デバフスキル</strong>
+        <ul>
+          <li><strong>ミラクル・オブ・ネイチャー:</strong> 対象を変身させて浄化以外のアクションが使えなくなります。</li>
+        </ul>
+      </li>
+      <li><strong>ヒーリングスキル</strong>
+        <ul>
+          <li><strong>ケアルラ:</strong> 単体回復魔法。</li>
+          <li><strong>ケアルガ:</strong> 範囲回復魔法。</li>
+          <li><strong>アクアヴェール:</strong> 味方全体にバリアを張り、一定時間ダメージを軽減します。また、デバフを1つ解除する。</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+
+  <section class="strategy">
+    <h2>クリスタルコンフリクトにおける白魔道士の立ち回り</h2>
+
+    <h3>基本的な立ち回り</h3>
+    <ul>
+      <li><strong>味方のHP管理:</strong> 味方のHPを常に確認し、必要に応じて回復魔法を使用しましょう。特にタンクやダメージを受けているDPSへの回復を優先しましょう。</li>
+      <li><strong>デバフの解除:</strong> 敵からかけられたデバフは、迅速に解除しましょう。特に、ヘビィや沈黙などのデバフは、味方の行動を制限するため、早期に解除することが重要です。</li>
+      <li><strong>遠隔からの攻撃:</strong> 白魔道士は遠隔攻撃が得意なので、安全な距離から敵に攻撃を加えましょう。一部接近スキルがあるので使うタイミングは大事です。</li>
+    </ul>
+
+    <h3>状況に応じたスキル回し</h3>
+    <ul>
+      <li><strong>序盤:</strong> 味方のHPを安定させつつ、グレアガやセラフストライクで敵にダメージを与えましょう。ミラクル・オブ・ネイチャーで敵にデバフを付与することも有効です。</li>
+      <li><strong>中盤:</strong> 味方のHPが安定してきたら、積極的に攻撃に転じましょう。ハート・オブ・ミゼリやグレアジャを使って敵のHPを削り、LBでトドメを指しましょう。</li>
+      <li><strong>終盤:</strong> 前線に近づきすぎないように注意しつつクリスタルを運びましょう。遠距離から味方をサポートし、敵の攻撃を牽制しましょう。</li>
+    </ul>
+
+    <h3>スキル組み合わせのテクニック</h3>
+    <ul>
+      <li><strong>ミラクル・オブ・ネイチャーとLBを組み合わせた高火力:</strong> ミラクル・オブ・ネイチャーで敵を妨害した上で、LBで一気にダメージを与えましょう。</li>
+      <li><strong>アクアヴェールとケアルガを組み合わせた味方の協力サポート:</strong> アクアヴェールで味方のデバフ解除+バリアを張り、ケアルガでさらに回復することで、死にそうな味方を強力にサポートできます。</li>
+    </ul>
+
+    <h3>PvPにおける立ち回りの基本</h3>
+    <ul>
+      <li><strong>味方との連携:</strong> チームメイトと連携し、チャットで声を掛け合いながら戦いを進めましょう。</li>
+      <li><strong>敵の動きを読む:</strong> 敵のスキル詠唱や動きを予測し、事前に回避行動を取ったり、味方を回復したりしましょう。</li>
+      <li><strong>マップの活用:</strong> ギミックによるダメージが大きいので、マップのギミックはしっかり退避しましょう。</li>
+    </ul>
+
+  </section>
+
+  <section class="winning-tips">
+    <h2>クリスタルコンフリクトで勝つためのポイント</h2>
+
+    <ul>
+      <li><strong>チームとの連携:</strong> チームメイトとのコミュニケーションを密にし、連携して戦いを進めましょう。特に、味方とのタゲ合わせは重要です。</li>
+      <li><strong>敵の動きを読む:</strong> 敵のLBを見ておき動きを予測し、事前に防御を取ったり、味方を回復したりしましょう。</li>
+      <li><strong>マップの活用:</strong> マップのギミックの中にはLBゲージが上昇するものもあるので積極的に取得しましょう。</li>
+    </ul>
+
+  </section>
+
+  <section class="conclusion">
+    <h2>まとめ</h2>
+
+    <p>白魔道士は、回復だけでなく、強力な攻撃スキルも持ち合わせているため、クリスタルコンフリクトにおいて非常に重要な役割を担います。この記事で紹介した情報を参考に、白魔道士でクリスタルコンフリクトを楽しみ、チームの勝利に貢献しましょう。</p>
+
+  </section>
+
+</article>
+
+<style>
+  .whm-pvp-guide {
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  .introduction, .skills, .strategy, .winning-tips, .conclusion {
+    margin-bottom: 20px;
+  }
+  h1, h2, h3 {
+    color: #333;
+  }
+  ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+</style>
+
+]]>
+</content:encoded>
+</item>
+<item rdf:about="https://ff14.masyumaroking.com/archives/5262717.html">
+<title>FF14 パッチ7.1で大幅に強化された黒魔道士のPvPスキル解説</title>
+<link>https://ff14.masyumaroking.com/archives/5262717.html</link>
+<description>
+  FF14 パッチ7.1で大幅に強化された黒魔道士のPvPスキル解説
+
+  
+    
+      FF14の黒魔道士は、強力な魔法で敵を殲滅する遠隔DPSジョブです。
+      しかし、その高い火力を出すためには、様々なスキルを効果的に使いこなす必要があります。
+      この記事では、黒魔道士...</description>
+<dc:creator>masyumaroking</dc:creator>
+<dc:date>2024-11-24T02:49:27+09:00</dc:date>
+<dc:subject></dc:subject>
+<content:encoded><![CDATA[<article class="blm-pvp-guide">
+  <h1>FF14 パッチ7.1で大幅に強化された黒魔道士のPvPスキル解説</h1>
+<a href="https://livedoor.blogimg.jp/masyumaroking/imgs/3/4/34d9ba66.png" title="スクリーンショット 2024-11-24 2.32.33" target="_blank"><img src="https://livedoor.blogimg.jp/masyumaroking/imgs/3/4/34d9ba66-s.png" width="480" height="144" border="0" alt="スクリーンショット 2024-11-24 2.32.33" hspace="5" class="pict"  /></a><br />
+  <section class="introduction">
+    <p>
+      FF14の黒魔道士は、強力な魔法で敵を殲滅する遠隔DPSジョブです。
+      しかし、その高い火力を出すためには、様々なスキルを効果的に使いこなす必要があります。
+      この記事では、黒魔道士の主なスキルについて解説し、PvPでの実践的な使い方についてご紹介します。
+    </p>
+  </section>
+  <section class="skill-overview">
+    <h2>黒魔道士のスキル概要</h2>
+    <p>黒魔道士のスキルは、大きく分けて以下の要素で構成されています。</p>
+    <ul>
+      <li>
+        <strong>ファイア系スキル:</strong> 炎属性の攻撃魔法で、高い火力を出すことができます。
+      </li>
+      <li>
+        <strong>ブリザド系スキル:</strong>
+        氷属性の攻撃魔法で、敵を凍らせたり反撃ダメージを与えたりする効果があります。
+      </li>
+      <li>
+        <strong>それ以外の魔法攻撃:</strong>
+        ファイヤ/ブリザド系以外に接近して攻撃するバーストや、リキャスト時間のあるゼノグロシーなどがあります。
+      </li>
+      <li>
+        <strong>その他:</strong>
+        移動スキル、バフ/デバフスキルなど、戦闘をサポートするスキルも存在します。
+      </li>
+    </ul>
+  </section>
+  <section class="skill-details">
+    <h2>各スキルの詳細と使い方</h2>
+    <h3>●ファイア系スキル</h3>
+    <ul>
+      <li>
+        <strong>ファイア/ファイガ/ハイファイラ:</strong>
+        基本的な炎属性の攻撃魔法です。ファイアを連発することで、ファイガ、ハイファイラへと強化されます。
+      </li>
+      <li>
+        <strong>リース・オブ・ファイア:</strong> ファイア系魔法の威力を上昇させるスキルです。
+      </li>
+      <li>
+        <strong>フレア:</strong>
+        LB中のみ使用できる高火力な範囲攻撃の魔法で、複数の敵にダメージを与えることができます。
+      </li>
+      <li>
+        <strong>フレアスター:</strong>
+        LB中のみ使用できる強力な範囲攻撃の魔法で、継続ダメージを与えることができます。
+      </li>
+    </ul>
+
+    <h3>●ブリザド系スキル</h3>
+    <ul>
+      <li>
+        <strong>ブリザド/ブリザガ/ハイブリザラ:</strong>
+        基本的な氷属性の攻撃魔法です。ブリザドを連発することで、ブリザガ、ハイブリザラへと強化されます。
+      </li>
+      <li>
+        <strong>リース・オブ・アイス:</strong> 被ダメージを軽減し、反撃効果を与えるバフです。
+      </li>
+      <li>
+        <strong>フリーズ:</strong>
+        LB中のみ使用できる無詠唱な範囲攻撃の魔法で、複数の敵にダメージを与えることができます。
+      </li>
+      <li>
+        <strong>グレイシャルスター:</strong>
+        LB中のみ使用できる強力な範囲攻撃の魔法で、敵を凍らせることができます。
+      </li>
+    </ul>
+
+    <h3>●それ以外の魔法攻撃</h3>
+    <ul>
+      <li>
+        <strong>バースト:</strong>
+        自身にバリアを張り、周囲の敵にダメージを与えるスキルです。敵に近付かなければなりませんが威力があります。
+      </li>
+      <li>
+        <strong>ゼノグロシー:</strong>
+        無詠唱でファイア系最大のハイファイラと同じ威力があります。HPが低いときには威力が落ちますが、HPを吸収するスキルになります。
+      </li>
+    </ul>
+
+    <h3>●その他</h3>
+    <ul>
+      <li>
+        <strong>パラドックス:</strong>
+        ファイアとブリザドの効果を最大限に引き出すスキルです。このスキルを使用することで、各コンボが最大の状態になりより強力な攻撃が可能になります。
+      </li>
+      <li><strong>レサージー:</strong> 敵の攻撃力を低下させ、ヘビィ状態にするスキルです。</li>
+      <li>
+        <strong>エーテリアルステップ:</strong>
+        指定した場所に瞬間移動するスキルです。急接近したい場合は離脱したい場合に使えます。
+      </li>
+    </ul>
+  </section>
+  <section class="practical-usage">
+    <h2>実践的な使い方</h2>
+    <ul>
+      <li>
+        <strong>スキル回し:</strong>
+        ファイア系とブリザド系のスキルを交互に使い、パラドックスで強化することで、高い火力を出すことができます。
+      </li>
+      <li>
+        <strong>状況に応じたスキル選択:</strong>
+        敵の配置や数、自身のHPなど、状況に応じてスキルを使い分けましょう。
+      </li>
+      <li>
+        <strong>バーストの活用:</strong>
+        バーストは、逃げ遅れた敵を叩きたい時やタゲ合わせ際により火力を出す時に使います。
+      </li>
+      <li>
+        <strong>リミットブレイク:</strong>
+        ソウルレゾナンスは、強力な攻撃スキルを連発できるようになるため、重要なリミットブレイクです。
+      </li>
+    </ul>
+  </section>
+  <section class="pvp-strategy">
+    <h2>PvPでの立ち回り</h2>
+    <ul>
+      <li>
+        <strong>安全な位置から攻撃:</strong>
+        黒魔道士は遠距離攻撃が得意なので、安全な位置から攻撃しましょう。基本的に逃げ遅れたらやられます。
+      </li>
+      <li>
+        <strong>詠唱中断に注意:</strong>
+        詠唱中の敵が他の人に倒されると詠唱自体が中断されてしまい勿体無いので敵は選びましょう。
+      </li>
+      <li>
+        <strong>味方との連携:</strong>
+        グレイシャルスターやレサージーは敵の足止め妨害をするのにとても有効なのでタイミングが噛み合えばめちゃくちゃアシストが入ります。
+      </li>
+    </ul>
+  </section>
+  <section class="conclusion">
+    <h2>まとめ</h2>
+    <p>
+      黒魔道士は、高い火力を持ちながらも、無詠唱のスキルも充実したためかなり扱いやすくなりました。
+      また妨害系スキルも増えたので、PvPでより活躍できる強力なジョブになりました。この記事を参考に、ぜひ黒魔道士をマスターしてください。
+    </p>
+  </section>
+</article>
+
+]]>
+</content:encoded>
+</item>
+<item rdf:about="https://ff14.masyumaroking.com/archives/5257564.html">
+<title>FF14 クリスタルコンフリクト初心者向け完全ガイド(7.1)</title>
+<link>https://ff14.masyumaroking.com/archives/5257564.html</link>
+<description>FF14 クリスタルコンフリクト初心者向け完全ガイド
+
+
+  ■PvPってどんなゲーム？
+  
+    プレイヤー同士が直接対決するゲームモードです。
+    協力して敵を倒すPvEとは異なり、他のプレイヤーとの駆け引きや戦略が重要になります。
+    かなりスピード感がある戦いとなるの...</description>
+<dc:creator>masyumaroking</dc:creator>
+<dc:date>2024-11-23T12:19:40+09:00</dc:date>
+<dc:subject></dc:subject>
+<content:encoded><![CDATA[<h1>FF14 クリスタルコンフリクト初心者向け完全ガイド</h1>
+<a href="https://livedoor.blogimg.jp/masyumaroking/imgs/b/4/b436613e.jpg" title="dfRb_xkaX3-csJmVRlfn5Z7-dw" target="_blank"><img src="https://livedoor.blogimg.jp/masyumaroking/imgs/b/4/b436613e-s.jpg" width="480" height="270" border="0" alt="dfRb_xkaX3-csJmVRlfn5Z7-dw" hspace="5" class="pict"  /></a><br />
+<section>
+  <h2>■PvPってどんなゲーム？</h2>
+  <p>
+    プレイヤー同士が直接対決するゲームモードです。<br />
+    協力して敵を倒すPvEとは異なり、他のプレイヤーとの駆け引きや戦略が重要になります。<br />
+    かなりスピード感がある戦いとなるのでPvEの代名詞とされる極や零式などとはまた違った刺激を得ることができます。
+  </p>
+</section>
+<section>
+  <h2>■クリスタルコンフリクトはこんなゲーム</h2>
+  <p>
+    FF14のPvPコンテンツの一つで、短時間で白熱したバトルが楽しめるモードです。<br />
+    フロントラインが1試合20分近くかかるのに対して、クリスタルコンフリクトは5分程度で終わるものとなっています。<br />
+    ルールとしてもシンプルでチームで協力してクリスタルを運び、相手のゴールへ到達させるのが目的です。<br />
+    (スプラトゥーンをやったことなら「ガチヤグラ」のFF14版だと思ってもらって遜色ないです。)
+  </p>
+</section>
+<section>
+  <h2>■ルール説明</h2>
+  <ul>
+    <li>目的: 中央にあるクリスタルを相手チームの領域に移送することです。</li>
+    <li>
+      勝利条件: 最終的に相手チームにあるゴールに到達する or
+      制限時間内に進行できた最高到達点が高いチームが勝利。
+    </li>
+    <li>マップ: 複数のマップが存在し、それぞれ特徴が異なる。</li>
+    <li>制限時間: 一試合の時間は短く、５分+アディショナルタイム。</li>
+  </ul>
+</section>
+<section>
+  <h2>■コンテンツ解放</h2>
+  <p>
+    メインクエストをある程度進めると、コンテンツ解放クエストを受注できます。<br />
+    詳細はこちらから<br />
+    <a
+      href="https://jp.finalfantasyxiv.com/lodestone/playguide/pvpguide/system/"
+      >https://jp.finalfantasyxiv.com/lodestone/playguide/pvpguide/system/</a
+    >
+  </p>
+</section>
+<section>
+  <h2>■ジョブ選択</h2>
+  <p>
+    PvPでは、PvEとは異なるジョブアクションや特性を持つ場合があります。<br />
+    自分のプレイスタイルに合わせてジョブを選びましょう。<br />
+    PvEとは違い、スキルはレベルに関係なく同じとなっています。<br />
+    そのためPvEの方で育てたレベルが高いもの固執する必要はありません。<br />
+    また、スキルの内容もPvEとは異なっているので別のジョブだと思ってもらって新たに自分に合ったジョブを見つけるのが良いでしょう。
+  </p>
+</section>
+<section>
+  <h2>■ジョブ専用アクション</h2>
+  <p>
+    各ジョブ固有のアクションです。ジョブの特性を活かした強力な攻撃やサポートスキルが多数存在します。<br />
+    スキルごとに威力や効果がしっかり書いてあるのでよく読み込んでおきましょう。<br />
+    また、ホットバーに登録できないアクションがあるのでそれらがどのようにしたら使えるようになるのかなども確認しましょう。
+  </p>
+</section>
+<section>
+  <h2>■共通アクション</h2>
+  <p>
+    全ジョブで共通して使えるアクションです。<br />
+    移動速度が上がるスプリントや攻撃を90%カットする防御など、PvEにはない戦闘を有利に進めるためのアクションが多数用意されています。<br />
+    こちらもしっかり目を通しておきましょう。<br />
+    (スプリントは通常とは違い何度でも使えたりします。)
+  </p>
+</section>
+<section>
+  <h2>■リミットブレイク</h2>
+  <p>
+    一定の条件を満たすと発動できる強力なスキルです。<br />
+    PvEでもありますが、あれはチームで１つのゲージを共有していました。<br />
+    ただ、PvPではゲージが個々に用意されているので自分が好きなタイミングで使うことができます。<br />
+    また、ゲージ自体も溜まりやすくなっているので温存しすぎず使っていきましょう。<br />
+    LBはジョブごとに効果が違いますがどれも戦況を変えるほどの威力があるので、上手く活用しましょう。
+  </p>
+</section>
+<section>
+  <h2>■ホットバー設定</h2>
+  <p>
+    PvP用のホットバーをカスタマイズして、戦いやすいようにしましょう。<br />
+    PvEでのホットバーとは違うのでウルヴズジェイルに行きそこでカスタムしましょう。<br />
+    重複になりますが、PvEとはアクションが異なるのでちゃんとスキルには目を通しましょう。
+  </p>
+</section>
+<section>
+  <h2>■木人</h2>
+  <p>
+    PvP練習用のダミーです。様々なアクションを試したり、コンボを練習したりすることができます。<br />
+    上記のホットバーの設定やスキルの読み込みが終わったら必ず木人で試しましょう。<br />
+    ウルヴズジェイルに木人はあるのでそこで試せます。
+  </p>
+</section>
+<section>
+  <h2>■クイックチャット（QC）</h2>
+  <p>
+    フロントラインではIDなどと同じようなマクロで好きなメッセージを送信できますが、クリスタルコンフリクトではゲーム側で用意されたもののみ送信できるようになっています。<br />
+    初めのうちは「よろしくお願いします」と「お疲れ様でした」の挨拶だけホットバーにあればいいと思います。<br />
+    試合に慣れてきたら「リミットブレイク」や「後退します」などの意思表示もできるようになるとチームメンバーとコミュニケーションが取れて楽しいです。
+  </p>
+</section>
+<section>
+  <h2>■マクロ</h2>
+  <p>
+    クリスタルコンフリクトでは「タゲ合わせ」いわゆる1人に攻撃を集中させることが重要になります。<br />
+    その際にマクロがあるとマーカーがついている人にターゲットを合わせやすくなります。
+  </p>
+  <pre><code>
+/ta &lt;attack1&gt;
+/ta &lt;attack2&gt;
+/ta &lt;attack3&gt;
+/ta &lt;circle&gt;
+/ta &lt;triangle&gt;
+</code></pre>
+  <p>
+    参考ではありますが自分は上記のようなマクロを設定してホットバーに配置してます。<br />
+    1~3のマーカーがついた人がいればその人をターゲット、次に丸印、その次に三角をターゲットしてくれます。
+  </p>
+</section>
+<section>
+  <h2>■カジュアルマッチとランクマッチ</h2>
+  <ul>
+    <li>
+      カジュアルマッチ: 勝敗にこだわらず、気軽にPvPを楽しみたい人向けのモード。
+    </li>
+    <li>ランクマッチ: 勝敗によってランクが変動する、競争性の高いモード。</li>
+  </ul>
+  <p>
+    初めはカジュアルマッチで戦い方や試合の流れ、マップのギミックなどを理解しましょう。<br />
+    カジュアルマッチで一通り自分のスキル回しや立ち回り、マップでの振る舞いなどが固まってきたらランクマッチに挑戦しましょう。
+  </p>
+</section>
+<section>
+  <h2>■各マップの簡単な解説</h2>
+<a href="https://livedoor.blogimg.jp/masyumaroking/imgs/2/9/2921afbd.png" title="スクリーンショット 2024-11-23 12.15.22" target="_blank"><img src="https://livedoor.blogimg.jp/masyumaroking/imgs/2/9/2921afbd-s.png" width="480" height="296" border="0" alt="スクリーンショット 2024-11-23 12.15.22" hspace="5" class="pict"  /></a><br />
+  <h3>●パライストラ</h3>
+  <p>
+    かなりシンプルであり、変なギミックは特にない。<br />
+    そのため初心者がやるには一番合っているマップ。
+  </p>
+  <h3>●ヴォルカニック・ハート</h3>
+  <p>
+    ちょっと難しいマップで、何も知らないとギミックにやられてしまうこともある。<br />
+    ステージ外部にある火山が噴火してボムが降ってきて、爆発する。巻き込まれるとダメージを受けてしまう。
+  </p>
+
+  <h3>●クラウドナイン</h3>
+  <p>
+    こちらも癖ありのマップで、何も知らないと竜巻に巻き込まれて大ダメージを喰らう。<br />
+    とにかく、突風が吹く時になったら防御をしましょう。<br />
+    チョコボマークのところに行けるとなお良いですが、追いかけっこになるので時間になったら防御する方が安全。
+  </p>
+
+  <h3>●東方絡繰御殿</h3>
+  <p>
+    和風なマップで個人的には楽しくて好き。<br />
+    ピンクに光った畳があったらすぐに離れましょう。<br />
+    また、からくりがAOEを表示したら真っ先に逃げましょう。PvPのギミックは普通に即死系が多いので避けるの最優先。
+  </p>
+
+  <h3>●レッド・サンズ</h3>
+  <p>
+    個人的に嫌いなマップ。初見殺しもあるので要注意。<br />
+    特に気にすべきなのが吸い込みからの即死攻撃。こちらも予兆は出てくれるのでちゃんと避けましょう。<br />
+    あと灼熱の時間はHPが何もしていなくても削れるのでいつも以上にHPに余裕を持って行動ないとやられます。
+  </p>
+
+  <p>
+    詳細についはこちらを確認<br />
+    <a
+      href="https://jp.finalfantasyxiv.com/lodestone/playguide/contentsguide/crystallineconflict/"
+      >https://jp.finalfantasyxiv.com/lodestone/playguide/contentsguide/crystallineconflict/</a
+    >
+  </p>
+</section>
+<section>
+  <h2>■試合後</h2>
+  <p>
+    試合終了後には、試合結果や個人成績を確認できます。<br />
+    自分のプレイを見直して、次回に活かしましょう。
+  </p>
+</section>
+<section>
+  <h2>■最後に</h2>
+  <p>
+    クリスタルコンフリクトは、チームワークと個人のスキルが試される、奥深いコンテンツです。<br />
+    最初は戸惑うかもしれませんが、何度もプレイすることで、きっと上達していくでしょう。<br />
+    ぜひ、他のプレイヤーと一緒に、クリスタルコンフリクトの世界を楽しんでください！
+  </p>
+</section>
+
+]]>
+</content:encoded>
+</item>
+<item rdf:about="https://ff14.masyumaroking.com/archives/5254505.html">
+<title>FF14 パッチ7.1 PvPにおけるナイトの完全攻略ガイド</title>
+<link>https://ff14.masyumaroking.com/archives/5254505.html</link>
+<description>    FF14 PvPにおけるナイトの完全攻略ガイド
+    FF14のナイトは、パッチによる調整により、以前とは異なるスキル構成となりました。この記事では、最新のスキル構成と各スキルの威力を元に、PvPにおけるナイトの立ち回りを詳細に解説していきます。
+
+    ナイトの基本スキ...</description>
+<dc:creator>masyumaroking</dc:creator>
+<dc:date>2024-11-23T00:16:47+09:00</dc:date>
+<dc:subject></dc:subject>
+<content:encoded><![CDATA[    <h1>FF14 PvPにおけるナイトの完全攻略ガイド</h1>
+    <p>FF14のナイトは、パッチによる調整により、以前とは異なるスキル構成となりました。この記事では、最新のスキル構成と各スキルの威力を元に、PvPにおけるナイトの立ち回りを詳細に解説していきます。</p>
+
+    <h2>ナイトの基本スキル解説</h2>
+    <h3>攻撃スキル</h3>
+    <ul>
+        <li><strong>コンフィテオル</strong>: 範囲攻撃スキル。威力が非常に高く、複数の敵に大きなダメージを与えることができる。PvPでは、敵集団への牽制や、複数の敵をまとめて倒す際に有効。威力：10000</li>
+        <li><strong>ホーリースピリット</strong>: 対象に魔法攻撃。遠距離の敵を攻撃する際に有効。威力：8000</li>
+        <li><strong>シールドスマイト</strong>: 対象に向かって前方範囲攻撃を行い、防御力を低下させる。複数の敵に対して有効。威力：8000</li>
+        <li><strong>インペラトル</strong>: 対象とその範囲に攻撃。範囲攻撃でありながら、単体目標への集中攻撃も可能。威力：4000</li>
+        <li><strong>インターヴィーン</strong>: 敵の攻撃を遮り、スタンさせる。PvPでは、敵の攻撃を中断させたり、味方の攻撃チャンスを作るために使われる。威力：2000</li>
+    </ul>
+    <h3>防御スキル</h3>
+    <ul>
+        <li><strong>ホーリーシェルトロン</strong>: 自身にバリアを張り、ダメージを軽減する。また、バリア終了時にヘビィを付与する。</li>
+        <li><strong>ファランクス</strong>: 無敵状態になり、強力な攻撃を行うことができる。ピンチの状況で生き残るために使われる。</li>
+    </ul>
+
+    <h2>シチュエーション別のスキル回し</h2>
+    <p><strong>1対1の状況:</strong> インターヴィーンで接近しスタンを入れる。その後ロイエコンボを入れて、ホーリースピリットで距離を保ちながら攻撃し、コンフィテオルで大きなダメージを与えます。遠距離でも多々抱えるのがナイトの強みなので近距離にこだわりすぎず逃げる的には魔法攻撃でトドメを指しましょう。</p>
+    <p><strong>多対多の状況:</strong> ホーリーシェルトロンで自身を守ったりデバフをばら撒きながら、シールドスマイトやインペラトルで範囲攻撃を行い、インターヴィーンで敵にでしゃばってきた敵をスタンさせます。攻めてきたらファランクスで自分と味方を守りながら、コンフィテオルで敵集団に大きなダメージを与えましょう。</p>
+
+    <h2>スキル組み合わせのテクニック</h2>
+    <p><strong>ホーリーシェルトロン+インターヴィーン:</strong>ホーリーシェルトロンで防御力を高めた状態でインターヴィーンを打ちスタンをさせる。その後にホーリーシェルトロンが切れた時にヘビィがばら撒けるのでさらに相手の妨害ができる。</p>
+    <p><strong>インターヴィーン+シールドスマイト:</strong>急接近してスタンさせてからシールドスマイトで敵の防御力を低下させることでその後の攻撃の威力をアップさせます。</p>
+    <p><strong>ファランクス+コンフィテオル:</strong>ファランクス中にコンフィテオルを使用することで、無敵状態のままかつ高火力のスキルを打てる状態でさらに高威力の範囲攻撃を行うことができます。</p>
+
+    <h2>PvPにおける立ち回りの基本</h2>
+    <p><strong>ポジショニング:</strong>防御系スキルがある場合は前に出て敵にスキルを積極的に使わせましょう。MPがなくなっている味方がいたら守ってあげましょう。</p>
+    <p><strong>敵の動きを読む:</strong>敵のバーストの動きを予測し、事前に防御やLBを使ったり、逃げ遅れている敵がいたら積極的にインターヴィーンでスタンさせましょう。</p>
+    <p><strong>ファランクスの活用:</strong>ファランクスは、味方を守り、敵からの攻撃を無力化する強力なスキルです。ピンチの状況や、ラインをおしあげたい時に使いましょう。</p>
+    <p><strong>スキルの使い分け:</strong>各スキルの威力を把握し、状況に応じて適切なスキルを使い分けましょう。例えば、遠距離の敵にはホーリースピリット、複数の敵にはシールドスマイトやインペラトル、単体目標にはホーリースピリットなどが有効です。</p>
+
+    <h2>まとめ</h2>
+    <p>パッチによる調整により、ナイトは非常に強力な攻撃能力を獲得しました。特に、コンフィテオルの高威力は、PvPにおいて大きな存在感を示します。この記事で紹介した情報を参考に、最新のナイトでPvPを楽しんでください。</p>
+    <h2>今後の展望</h2>
+    <p>今後のパッチで、ナイトのスキルがさらに調整される可能性があります。常に最新の情報を収集し、自分のプレイスタイルに合ったスキル回しを構築していくことが重要です。</p>
+
+]]>
+</content:encoded>
+</item>
+<item rdf:about="https://ff14.masyumaroking.com/archives/5233483.html">
+<title>FF14 パッチ7.1 白魔道士 PVPスキル完全解説</title>
+<link>https://ff14.masyumaroking.com/archives/5233483.html</link>
+<description>
+  FF14 白魔道士 PVPスキル完全解説
+
+  
+    パッチ7.1における白魔道士のPVPスキルを詳細に解説します。各スキルの特性と効果的な使用方法を徹底解説します。
+  
+
+  
+    🔥 攻撃系スキル
+
+    
+      グレアガ
+      グレアガは威力6000（星1）の単体魔法攻撃スキルです。...</description>
+<dc:creator>masyumaroking</dc:creator>
+<dc:date>2024-11-20T21:52:57+09:00</dc:date>
+<dc:subject></dc:subject>
+<content:encoded><![CDATA[<article class="whm-pvp-guide">
+  <h1>FF14 白魔道士 PVPスキル完全解説</h1>
+
+  <section class="introduction">
+    <p>パッチ7.1における白魔道士のPVPスキルを詳細に解説します。各スキルの特性と効果的な使用方法を徹底解説します。</p>
+  </section>
+
+  <section class="attack-skills">
+    <h2>🔥 攻撃系スキル</h2>
+
+    <div class="skill-detail">
+      <h3>グレアガ</h3>
+      <p>グレアガは威力6000（星1）の単体魔法攻撃スキルです。このスキルはそれほど頻繁に使用することはありません。主に他のスキルが使用できない状況や、本当にやることがない時に使用するくらいです。</p>
+      <ul>
+        <li>リキャストタイムが短いため、常に何かしらの行動を取りたい場合に使用できます。</li>
+        <li>他のスキルと比較して効果は限定的ですが、状況によっては有効です。</li>
+        <li>PvPにおいては、状況を見極めて使用することが重要です。</li>
+        <li>有用性：★☆☆☆☆</li>
+      </ul>
+    </div>
+
+    <div class="skill-detail">
+      <h3>ハート・オブ・ミゼリ</h3>
+      <p>ハート・オブ・ミゼリは威力12000（星2）の範囲魔法攻撃スキルです。単一のターゲットだけでなく、周囲の敵にもダメージを与えられるため、敵が密集している場面で特に効果的です。</p>
+      <ul>
+        <li>可能な限りリキャストが回ったら使用したいスキルです。</li>
+        <li>PvPの集団戦での活躍が期待できます。</li>
+        <li>敵の陣形を崩すのに役立ちます。</li>
+        <li>有用性：★★★☆☆</li>
+      </ul>
+    </div>
+
+    <div class="skill-detail">
+      <h3>ミラクル・オブ・ネイチャー</h3>
+      <p>ミラクル・オブ・ネイチャーは威力0ですが、敵単体を対象としてカッパもしくはポーキーに変身させる特殊なスキルです。使用のタイミングが難しいスキルですが、効果的に使えば非常に強力です。</p>
+      <ul>
+        <li>変身した敵は浄化以外のスキルが使用できなくなります。</li>
+        <li>突っ込んでくる近接職に対して使用すると効果的です。</li>
+        <li>味方のバーストを確実に当てたい敵に対して事前に使用するのも有効な戦術です。</li>
+        <li>PvPでは敵の行動を制限する重要なツールとなります。</li>
+        <li>有用性：★★☆☆☆</li>
+      </ul>
+    </div>
+
+    <div class="skill-detail">
+      <h3>セラフストライク</h3>
+      <p>セラフストライクは威力6000（星1）で、対象に飛び掛かりつつ、対象とその周囲の敵に範囲魔法攻撃を行います。このスキルは白魔道士としての力量が試されるキーとなるスキルです。</p>
+      <ul>
+        <li>接近するために使用するため、使用のタイミングを誤ると即座に敵のターゲットになってしまう危険性があります。</li>
+        <li>うまく発動できれば「グレアジャ」と「ハート・オブ・パーゲーション」が使用可能になり、これらは非常に強力です。</li>
+        <li>PvPでの位置取りと攻撃のタイミングを練習することが重要です。</li>
+        <li>有用性：★★☆☆☆</li>
+      </ul>
+    </div>
+
+    <div class="skill-detail">
+      <h3>グレアジャ</h3>
+      <p>グレアジャは威力8000（星2）の範囲魔法攻撃スキルです。このスキルは詠唱なしで使用できる白魔道士の主要な火力源の一つです。</p>
+      <ul>
+        <li>セラフストライクを使用することで3回使用可能になるため、その機会には必ず3回使用すべきです。</li>
+        <li>敵集団に対して効果的なダメージを与えられます。</li>
+        <li>PvPでの集団戦で大きな役割を果たします。</li>
+        <li>有用性：★★★☆☆</li>
+      </ul>
+    </div>
+
+    <div class="skill-detail">
+      <h3>ハート・オブ・パーゲーション</h3>
+      <p>ハート・オブ・パーゲーションは威力20000（星3）の前方直線範囲魔法攻撃スキルです。このスキルをどれだけ効果的に使用できるかが、キル数などの成績に直結する非常に重要なスキルです。</p>
+      <ul>
+        <li>命中すると相手にスタン効果も与え、範囲攻撃であることから非常に強力です。</li>
+        <li>LBゲージの充填も60秒と早いため、使用のタイミングを見計らいつつ、チャンスがあれば積極的に使用していくべきです。</li>
+        <li>このスキルの使用タイミングを見極める能力を磨くことが、PvPでの白魔道士としての成長につながります。</li>
+        <li>有用性：★★★★★</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="support-skills">
+    <h2>🩹 回復・補助スキル</h2>
+
+    <div class="skill-detail">
+      <h3>ケアルラ</h3>
+      <p>ケアルラは回復力12000（星2）の単体回復スキルです。これは通常のヒーラーらしいスキルで、対象のHPを回復します。</p>
+      <ul>
+        <li>詠唱が必要なため、咄嗟の使用や移動中は使用できません。</li>
+        <li>MPが少なくなっている味方に使用すると効果的です。</li>
+        <li>PvPでは状況を見極めて使用することが重要で、安全な位置からの回復に適しています。</li>
+        <li>有用性：★☆☆☆☆</li>
+      </ul>
+    </div>
+
+    <div class="skill-detail">
+      <h3>アクアヴェール</h3>
+      <p>アクアヴェールはバリア量が回復力8000相当（星2）のバリアスキルです。自身またはパーティメンバー一人を対象として、一定量のダメージを防ぐバリアを張ります。</p>
+      <ul>
+        <li>デバフを1つ解除でき、解除に成功するとバリア量が2倍になります。</li>
+        <li>デバフが付いて動きを止められているタンクなどに使用するのが最適です。</li>
+        <li>詠唱なしで使用できるので、PvPでの緊急時の対応に非常に便利です。</li>
+        <li>有用性：★★☆☆☆</li>
+      </ul>
+    </div>
+
+    <div class="skill-detail">
+      <h3>ケアルガ</h3>
+      <p>ケアルガは回復力16000（星3）の範囲回復スキルです。対象とその周囲のパーティメンバーのHPを回復します。</p>
+      <ul>
+        <li>セラフストライクを使用することで1回使用可能になるスキルです。</li>
+        <li>詠唱不要で高い回復力を持ち、範囲でヒールできる優れものです。</li>
+        <li>PvPでは前線で戦っている近接職に使用しても良いですし、自身のHPが危険な状態になった時に使用しても効果的です。</li>
+        <li>集団戦での味方全体の生存率を大きく向上させることができます。</li>
+        <li>有用性：★★★☆☆</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="conclusion">
+    <h2>🌟 まとめ</h2>
+    <p>白魔道士のPVPスキルは、状況に応じて適切に選択し、タイミングよく使用することが成功の鍵となります。各スキルの特性を理解し、チームと協調することで、より効果的な戦闘が可能になります。特に、ハート・オブ・パーゲーションの使用タイミングや、セラフストライクからの連携を練習することで、白魔道士としての実力が大きく向上するでしょう。</p>
+  </section>
+</article>
+
+<style>
+  .whm-pvp-guide {
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  .skill-detail {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+  .skill-detail h3 {
+    color: #333;
+    border-bottom: 2px solid #4a4a4a;
+    padding-bottom: 10px;
+  }
+  .skill-detail ul {
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 15px;
+  }
+</style>
+]]>
+</content:encoded>
+</item>
+<item rdf:about="https://ff14.masyumaroking.com/archives/5230853.html">
+<title>FF14 パッチ7.1 PVP（フロントライン）タンク(ナイト・暗黒騎士・戦士)の立ち回りガイド ⚔️</title>
+<link>https://ff14.masyumaroking.com/archives/5230853.html</link>
+<description>
+  FF14 パッチ7.1 PVP（フロントライン）タンク(ナイト・暗黒騎士・戦士)の立ち回りガイド ⚔️
+
+  パッチ7.1でジョブ調整が行われ、タンクの立ち回りに大きな変更がありました。この記事では、ナイト、暗黒騎士、戦士の3つのタンクジョブについて、フロントラインでの効果...</description>
+<dc:creator>masyumaroking</dc:creator>
+<dc:date>2024-11-20T13:32:44+09:00</dc:date>
+<dc:subject></dc:subject>
+<content:encoded><![CDATA[<article class="pvp-guide">
+  <h1>FF14 パッチ7.1 PVP（フロントライン）タンク(ナイト・暗黒騎士・戦士)の立ち回りガイド ⚔️</h1>
+
+  <p>パッチ7.1でジョブ調整が行われ、タンクの立ち回りに大きな変更がありました。この記事では、ナイト、暗黒騎士、戦士の3つのタンクジョブについて、フロントラインでの効果的な立ち回りを詳しく解説します。これらの戦術を習得すれば、あなたもフロントラインで大活躍間違いなしです！</p>
+
+  <section id="paladin">
+    <h2>🛡️ ナイト（パラディン）</h2>
+
+    <h3>📌 抑えておきたいポイント</h3>
+    <ul>
+      <li>🏃‍♂️ <span style="color: #4169e1;">ツッコミでスタンが可能に！</span> 前線に出てきたキャスターを狙おう</li>
+      <li>🔮 <span style="color: #32cd32;">魔法攻撃が充実</span> 逃げる敵を追撃できる</li>
+    </ul>
+
+    <h3>💥 バーストタイムの立ち回り</h3>
+
+    <h4>パターンA: 通常バースト</h4>
+    <ol>
+      <li>⚡ スプリントを使用（基本）</li>
+      <li>🛡️ バースト直前に<span style="color: #4169e1;">ホーリーシェルトロン</span>を発動</li>
+      <li>🌪️ バーストのタイミングで<span style="color: #4169e1;">インターヴィーン</span></li>
+      <li>🛡️ <span style="color: #ff4500;">シールドスマイト</span>で敵の防御力を下げる</li>
+      <li>⚔️ <span style="color: #32cd32;">インペラトル→コンフィテオル</span>でダメージを叩き込む</li>
+      <li>🏃‍♂️ 浄化を使って安全に帰還</li>
+    </ol>
+
+    <h4>パターンB: LBが溜まっている時</h4>
+    <ol>
+      <li>🌟 バースト直前に<span style="color: #4169e1;">LB（ファランクス）</span>を発動</li>
+      <li>🌪️ <span style="color: #32cd32;">インターヴィーン</span>で一気に接近</li>
+      <li>🛡️ <span style="color: #ff4500;">シールドスマイト</span>で敵の防御力を下げる</li>
+      <li>⚔️ <span style="color: #8a2be2;">ブレード・オブ・フェイス→ブレード・オブ・トゥルース→ブレード・オブ・ヴァラー</span>のコンボを決める</li>
+      <li>🏃‍♂️ 無敵が切れる前に素早く撤退</li>
+    </ol>
+
+    <div class="pro-tip">
+      <h4>💡 Pro Tip: よく逃げられてしまう場合</h4>
+      <p>離脱があるジョブに対しては、<span style="color: #4169e1;">インターヴィーン</span>で接近しても離脱される可能性が高いです。そこで：</p>
+      <ol>
+        <li><span style="color: #32cd32;">インペラトル</span>を先に使用</li>
+        <li><span style="color: #ff4500;">ロイエコンボ</span>を叩き込む</li>
+        <li>離脱する敵を<span style="color: #8a2be2;">コンフィテオル</span>などの魔法攻撃で追撃</li>
+      </ol>
+      <p>この戦術で、逃げる敵も逃がしません！</p>
+    </div>
+  </section>
+
+  <section id="dark-knight">
+    <h2>🗡️ 暗黒騎士</h2>
+
+    <h3>📌 抑えておきたいポイント</h3>
+    <ul>
+      <li><strong>ソルトアース→ソルト・アンド・ダーク：</strong><span style="color: #ff4500;">敵の中心に打ち込む</span>ことで効果的にダメージを与えます。</li>
+      <li><strong>ブラックナイト：</strong>突っ込む際に使用し、防御力を高めて生存率アップ！</li>
+    </ul>
+
+    <h3>💥 バースト時の動き</h3>
+
+    <h4>A. 通常バースト時</h4>
+    <ol>
+      <li><span style="color: #4169e1;">スプリントを炊いておく（基本）</span></li>
+      <li>バーストする際はブラックナイトを使用</li>
+      <li>プランジカットで突っ込む</li>
+      <li>ソルトアースで吸引し、ソルト・アンド・ダークでバインド</li>
+      <li>インペイルメントを使用</li>
+      <li>浄化などを使って安全に帰還</li>
+    </ol>
+
+    <h4>B. LBが溜まっている時のバースト</h4>
+    <ol>
+      <li><span style="color: #4169e1;">スプリントを炊いておく（基本）</span></li>
+      <li>バーストする際はブラックナイトを使用</li>
+      <li>プランジカットで突っ込む</li>
+      <li>ソルトアースで吸引し、ソルト・アンド・ダークでバインド</li>
+      <li><span style="color: #ff4500;">LB（イーブンタイド）を使用</span></li>
+      <li>ディセスティームとインペイルメントを続けて使用</li>
+      <li>浄化などを使って安全に帰還</li>
+    </ol>
+  </section>
+
+  <section id="warrior">
+    <h2>🪓 戦士</h2>
+
+    <h3>📌 抑えておきたいポイント</h3>
+    <ul>
+      <li><strong>ブロート：</strong>どれだけ良いタイミングで使えるかが鍵です。<span style="color: #ff4500;">キャスターやレンジ、ヒーラーを引っ張る</span>際に、防御が外れた直後を狙いましょう。</li>
+      <li><strong>プライマルレンド：</strong><span style="color: #32cd32;">浄化や防御が切れているタイミング</span>を狙ってバースト時に敵中心にぶちかますと効果的です。</li>
+    </ul>
+
+    <h3>💥 バースト時の動き</h3>
+
+    <h4>A. プライマルレンドが使える時</h4>
+    <ol>
+      <li><span style="color: #4169e1;">スプリントを炊いておく（基本）</span></li>
+      <li>バーストする際は原初の血気を使用</li>
+      <li>プライマルレンドで突っ込む</li>
+      <li>カオティックサイクロンを打つ（オロジェネシスを挟み込む）</li>
+      <li>浄化などを使って帰る</li>
+    </ol>
+
+    <h4>B. プライマルレンドが使えない時</h4>
+    <ol>
+      <li><span style="color: #4169e1;">スプリントを炊いておく（基本）</span></li>
+      <li>バーストする際は原初の血気を使用</li>
+      <li>オンスロートで突っ込む</li>
+      <li>カオティックサイクロンを打つ（オロジェネシスを挟み込む）</li>
+      <li>浄化などを使って帰る</li>
+    </ol>
+
+    <h4>C. LBが溜まっている時</h4>
+    <ol>
+      <li><span style="color: #4169e1;">スプリントを炊いておく（基本）</span></li>
+      <li>バーストする際は原初の血気を使用</li>
+      <li>オンスロートまたはプライマルレンドで突っ込む</li>
+      <li><span style="color: #ff4500;">LB（原初の怒号）を打つ</span></li>
+      <li>カオティックサイクロンを打つ（オロジェネシスを挟み込む）</li>
+    </ol>
+  </section>
+
+  <h2>🌟 まとめ</h2>
+  <p>各タンクジョブには独自の強みがあります：</p>
+  <ul>
+    <li>ナイトは<span style="color: #4169e1;">スタン付きの接近技</span>と<span style="color: #32cd32;">魔法攻撃による追撃能力</span>が特徴です。</li>
+    <li>暗黒騎士は<span style="color: #ff4500;">ソルトアース→ソルト・アンド・ダーク</span>の組み合わせで広範囲にダメージを与えられます。</li>
+    <li>戦士は<span style="color: #32cd32;">プライマルレンド</span>を使った強力なバーストダメージが魅力です。</li>
+  </ul>
+  <p>それぞれのジョブの特性を活かし、チームの盾となりつつ攻撃のチャンスを作り出しましょう。LBの適切な使用は戦況を一変させる可能性を秘めています！</p>
+  <p>エオルゼアの戦場で、あなたの活躍が勝利をもたらしますように。頑張ってください、タンクの皆さん！ 🛡️⚔️</p>
+</article>
+
+<style>
+  .pvp-guide {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6;
+  }
+  h1, h2, h3, h4 {
+    color: #333;
+  }
+  ul, ol {
+    padding-left: 20px;
+  }
+  .pro-tip {
+    background-color: #f0f8ff;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+    border-left: 5px solid #4169e1;
+  }
+  section {
+    margin-bottom: 40px;
+  }
+</style>
+]]>
+</content:encoded>
+</item>
+<item rdf:about="https://ff14.masyumaroking.com/archives/5217111.html">
+<title>FF14 パッチ7.1 PVP(フロントライン) ナイト立ち回り完全ガイド 🛡️</title>
+<link>https://ff14.masyumaroking.com/archives/5217111.html</link>
+<description>
+  🛡️ FF14 パッチ7.1 PVP(フロントライン) ナイト立ち回り完全ガイド 🛡️
+
+  エオルゼアの騎士たちよ、集え！パッチ7.1でナイトの立ち回りが変更されました。新たな戦術を身につけ、戦場を制覇しましょう！
+
+  🔑 抑えておきたいポイント
+  
+    🏃‍♂️ ツッコミでスタ...</description>
+<dc:creator>masyumaroking</dc:creator>
+<dc:date>2024-11-19T00:00:37+09:00</dc:date>
+<dc:subject></dc:subject>
+<content:encoded><![CDATA[<article  class="pvp-guide">
+  <h1>🛡️ FF14 パッチ7.1 PVP(フロントライン) ナイト立ち回り完全ガイド 🛡️</h1>
+
+  <p>エオルゼアの騎士たちよ、集え！パッチ7.1でナイトの立ち回りが変更されました。新たな戦術を身につけ、戦場を制覇しましょう！</p>
+
+  <h2>🔑 抑えておきたいポイント</h2>
+  <ul>
+    <li>🏃‍♂️ <span  style="color: rgb(65, 105, 225);">ツッコミでスタンが可能に！</span> 前線に出てきたキャスターを狙おう</li>
+    <li>🔮 <span  style="color: rgb(50, 205, 50);">魔法攻撃が充実</span> 逃げる敵を追撃できる</li>
+  </ul>
+
+  <h2>💥 バーストタイムの立ち回り</h2>
+
+  <h3>パターンA: 通常バースト</h3>
+  <ol>
+    <li>⚡ スプリントを使用（基本）</li>
+    <li><img  class="pict" hspace="5" alt="473ed65d458df3b6e6eaf3404009bac010a592d0 (1)" border="0" height="32" width="32" src="https://livedoor.blogimg.jp/masyumaroking/imgs/3/b/3bcf5fa7.png"><br />バースト直前に<span  style="color: rgb(65, 105, 225);">ホーリーシェルトロン</span>を発動</li>
+    <li><img  class="pict" hspace="5" alt="dc0a7f454aeb6fa8cf680d223f5b97ba6c768955" border="0" height="32" width="32" src="https://livedoor.blogimg.jp/masyumaroking/imgs/2/3/231f5407.png"><br />バーストのタイミングで<span  style="color: rgb(65, 105, 225);">インターヴィーン</span></li>
+    <li><img  class="pict" hspace="5" alt="e09ab38fcf5dc0de0f799d6b4a2e48ed03c8e06a" border="0" height="32" width="32" src="https://livedoor.blogimg.jp/masyumaroking/imgs/8/a/8a657743.png"><br /><span  style="color: rgb(255, 69, 0);">シールドスマイト</span>で敵の防御力を下げる</li>
+    <li><img  class="pict" hspace="5" alt="96686a4a337625121fb463b4cf65f93f01955546" border="0" height="32" width="32" src="https://livedoor.blogimg.jp/masyumaroking/imgs/3/2/328c21b7.png"><br /><span  style="color: rgb(50, 205, 50);">インペラトル→コンフィテオル</span>でダメージを叩き込む</li>
+    <li>🏃‍♂️ 浄化を使って安全に帰還</li>
+  </ol>
+
+  <h3>パターンB: LBが溜まっている時</h3>
+  <ol>
+    <li><img  class="pict" hspace="5" alt="a94e3555b79c68a9eb7f5ca496bcac7ef7fdcbcf" border="0" height="32" width="32" src="https://livedoor.blogimg.jp/masyumaroking/imgs/4/1/41acc775.png"><br />バースト直前に<span  style="color: rgb(65, 105, 225);">LB（ファランクス）</span>を発動</li>
+    <li><img  class="pict" hspace="5" alt="dc0a7f454aeb6fa8cf680d223f5b97ba6c768955" border="0" height="32" width="32" src="https://livedoor.blogimg.jp/masyumaroking/imgs/2/3/231f5407.png"><br /><span  style="color: rgb(50, 205, 50);">インターヴィーン</span>で一気に接近</li>
+    <li><img  class="pict" hspace="5" alt="e09ab38fcf5dc0de0f799d6b4a2e48ed03c8e06a" border="0" height="32" width="32" src="https://livedoor.blogimg.jp/masyumaroking/imgs/8/a/8a657743.png"><br /><span  style="color: rgb(255, 69, 0);">シールドスマイト</span>で敵の防御力を下げる</li>
+    <li><img  class="pict" hspace="5" alt="2f944d27fc3705822d461cd9e46ae2c288c80ee8" border="0" height="32" width="32" src="https://livedoor.blogimg.jp/masyumaroking/imgs/0/8/08fa60b4.png"><img  class="pict" hspace="5" alt="115a30be11fa866d366d36b07d8542a0efd667bb" border="0" height="32" width="32" src="https://livedoor.blogimg.jp/masyumaroking/imgs/b/4/b49273b3.png"><img  class="pict" hspace="5" alt="0f4597a0f6f40a77de83b1ce656d81345a5613ef" border="0" height="32" width="32" src="https://livedoor.blogimg.jp/masyumaroking/imgs/4/5/45279b42.png"><br /><span  style="color: rgb(138, 43, 226);">ブレード・オブ・フェイス→ブレード・オブ・トゥルース→ブレード・オブ・ヴァラー</span>のコンボを決める</li>
+    <li>🏃‍♂️ 無敵が切れる前に素早く撤退</li>
+  </ol>
+
+  <div  style="background-color: #f0f8ff; padding: 15px; border-radius: 5px; margin-top: 20px;" class="pro-tip">
+    <h4>💡 Pro Tip:</h4>
+    <p>ツッコミのスタン効果を活かし、<span  style="color: rgb(255, 69, 0);">敵の後方にいるキャスターやヒーラーを狙う</span>のが効果的です。味方と連携して、一気に敵の陣形を崩しましょう！</p>
+  </div>
+
+  <h2>🎯 詳細なスキル回し</h2>
+
+  <h3>単体の的に対して火力を出す場合</h3>
+  <div class="skill-sequence">
+    <table>
+      <tr>
+        <td><img src="https://livedoor.blogimg.jp/masyumaroking/imgs/3/b/3bcf5fa7.png" alt="ホーリーシェルトロン"><p>1. ホーリーシェルトロン</p></td>
+        <td><img src="https://livedoor.blogimg.jp/masyumaroking/imgs/2/3/231f5407.png" alt="インターヴィーン"><p>2. インターヴィーン</p></td>
+        <td><img src="https://livedoor.blogimg.jp/masyumaroking/imgs/8/a/8a657743.png" alt="シールドスマイト"><p>3. シールドスマイト</p></td>
+      </tr>
+      <tr>
+        <td><img src="https://livedoor.blogimg.jp/masyumaroking/imgs/3/2/328c21b7.png" alt="インペラトル"><p>4. インペラトル</p></td>
+        <td><img src="https://livedoor.blogimg.jp/masyumaroking/imgs/9/9/99bb2fa8.png"" alt="ロイエ"><p>5. ロイエ</p></td>
+        <td><img src="https://livedoor.blogimg.jp/masyumaroking/imgs/0/a/0af516dd.png" alt="ゲベート"><p>6. ゲベート</p></td>
+      </tr>
+      <tr>
+        <td><img src="https://livedoor.blogimg.jp/masyumaroking/imgs/9/2/92b96c99.png" alt="グラブカッマー"><p>7. グラブカッマー</p></td>
+        <td><img src="https://livedoor.blogimg.jp/masyumaroking/imgs/c/4/c449052d.png" alt="コンフィテオル"><p>8. コンフィテオル</p></td>
+        <td><img src="https://livedoor.blogimg.jp/masyumaroking/imgs/8/f/8f63cbb5.png" alt="ホーリースピリット"><p>9. ホーリースピリット</p></td>
+      </tr>
+    </table>
+  </div>
+
+  <h3>真ん中での攻防をしている時</h3>
+  <div class="skill-sequence">
+    <table>
+      <tr>
+        <td><img src="https://livedoor.blogimg.jp/masyumaroking/imgs/3/b/3bcf5fa7.png" alt="ホーリーシェルトロン"><p>1. ホーリーシェルトロン</p></td>
+        <td><img src="https://livedoor.blogimg.jp/masyumaroking/imgs/3/2/328c21b7.png" alt="インペラトル"><p>2. インペラトル</p></td>
+        <td><img src="https://livedoor.blogimg.jp/masyumaroking/imgs/c/4/c449052d.png" alt="コンフィテオル"><p>3. コンフィテオル</p></td>
+      </tr>
+      <tr>
+        <td><img src="https://livedoor.blogimg.jp/masyumaroking/imgs/8/f/8f63cbb5.png" alt="ホーリースピリット"><p>4. ホーリースピリット</p></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="pro-tip" style="background-color: #f0f8ff; padding: 15px; border-radius: 5px; margin-top: 20px;">
+    <h4>💡 Pro Tip: よく逃げられてしまう場合</h4>
+    <p>離脱があるジョブに対しては、<span style="color: #4169e1;">インターヴィーン</span>で接近しても離脱される可能性が高いです。そこで：</p>
+    <ol>
+      <li><span style="color: #32cd32;">インペラトル</span>を先に使用</li>
+      <li><span style="color: #ff4500;">ロイエコンボ</span>を叩き込む</li>
+      <li>離脱する敵を<span style="color: #8a2be2;">コンフィテオル</span>などの魔法攻撃で追撃</li>
+    </ol>
+    <p>この戦術で、逃げる敵も逃がしません！</p>
+  </div>
+
+
+  <h2>🌟 まとめ</h2>
+  <p>ナイトの強みは、<span  style="color: rgb(65, 105, 225);">スタン付きの接近技</span>と<span  style="color: rgb(50, 205, 50);">魔法攻撃による追撃能力</span>です。敵の隙を見逃さず、チームの盾となりつつ攻撃のチャンスを作り出しましょう。そして、LBの<span  style="color: rgb(255, 69, 0);">ファランクス</span>を使った無敵バーストは、戦況を一変させる可能性を秘めています！</p>
+
+  <p>エオルゼアの戦場で、あなたの剣と盾が勝利をもたらしますように。頑張ってください、騎士よ！ 🛡️⚔️</p>
+</article>
+
+<style>
+  .pvp-guide {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6;
+  }
+  h1, h2, h3, h4 {
+    color: #333;
+  }
+  ul, ol {
+    padding-left: 20px;
+  }
+  .pro-tip {
+    border-left: 5px solid #4169e1;
+  }
+  .skill-sequence table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 10px;
+  }
+  .skill-sequence td {
+    text-align: center;
+    width: 33.33%;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+  }
+  .skill-sequence img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 5px;
+  }
+  .skill-sequence p {
+    margin: 0;
+    font-weight: bold;
+  }
+</style>
+]]>
+</content:encoded>
+</item>
+<item rdf:about="https://ff14.masyumaroking.com/archives/5217066.html">
+<title>FF14 パッチ7.1 PVP(フロントライン) 白魔道士立ち回り解説 🧙‍♂️</title>
+<link>https://ff14.masyumaroking.com/archives/5217066.html</link>
+<description>
+  🎮 FF14 パッチ7.1 PVP(フロントライン) 白魔道士立ち回り解説 🧙‍♂️
+
+
+  パッチ7.1で様々なジョブに変更が加えられました。ここでは、フロントラインにおける白魔道士の新たな立ち回りについて詳しく解説します。
+
+📌 抑えておきたいポイント
+
+
+  
+    🔥 バースト時...</description>
+<dc:creator>masyumaroking</dc:creator>
+<dc:date>2024-11-18T12:54:02+09:00</dc:date>
+<dc:subject></dc:subject>
+<content:encoded><![CDATA[<h1 style="color: #4a4a4a">
+  🎮 FF14 パッチ7.1 PVP(フロントライン) 白魔道士立ち回り解説 🧙‍♂️
+</h1>
+<p>
+  パッチ7.1で様々なジョブに変更が加えられました。ここでは、フロントラインにおける白魔道士の新たな立ち回りについて詳しく解説します。
+</p>
+<h2 style="color: #0066cc">📌 抑えておきたいポイント</h2>
+<a href="https://livedoor.blogimg.jp/masyumaroking/imgs/5/a/5a96c65e.png" title="スクリーンショット 2024-11-18 12.51.27" target="_blank"><img src="https://livedoor.blogimg.jp/masyumaroking/imgs/5/a/5a96c65e-s.png" width="480" height="113" border="0" alt="スクリーンショット 2024-11-18 12.51.27" hspace="5" class="pict"  /></a><br />
+<ul>
+  <li>
+    🔥 <strong>バースト時のLB活用</strong>:
+    リミットブレイクを適切なタイミングで使用することで、アシストとキル両方を取得できます。このスキルの使用タイミングを極めることが重要です。
+  </li>
+  <li>
+    ⚠️ <strong>セラフストライクの慎重な使用</strong>:
+    強力なスキルですが、使用を誤ると簡単に倒されてしまう可能性があります。状況を見極めて使用しましょう。
+  </li>
+</ul>
+<h2 style="color: #0066cc">💥 バーストの時の立ち回り</h2>
+<h3 style="color: #009933">パターンA: 通常のバースト</h3>
+<ol>
+  <li>
+    🏃‍♂️ まず<strong>スプリント</strong>を使用し、素早く移動できるようにします。
+  </li>
+  <li>
+    <img src="https://livedoor.blogimg.jp/masyumaroking/imgs/3/9/3922e90e.png" width="32" height="32" border="0" alt="67c045d9c3c41f736c36022272cefd8c0980f19f" hspace="5" class="pict"  /><br />バーストのタイミングで<strong>ハート・オブ・ミゼリ</strong>を発動します。
+  </li>
+  <li>
+    <img src="https://livedoor.blogimg.jp/masyumaroking/imgs/1/1/1162ea7b.png" width="32" height="32" border="0" alt="8f0999ae68bff865ab683d7f1059024d126b013e" hspace="5" class="pict"  /><br />
+    味方が前線に突っ込んだら、それに合わせて<strong>セラフストライク</strong>を使用します。
+  </li>
+  <li>
+    <img src="https://livedoor.blogimg.jp/masyumaroking/imgs/f/8/f80d55fe.png" width="32" height="32" border="0" alt="928a4cb28079785539b6b24b6c890db6a5691703" hspace="5" class="pict"  /><br /> <strong>グレアジャ</strong>を撃ちながら、安全な位置まで後退します。
+  </li>
+</ol>
+<h3 style="color: #cc3300">パターンB: LBが溜まっている場合</h3>
+<ol>
+  <li>
+    🌟
+    <img src="https://livedoor.blogimg.jp/masyumaroking/imgs/5/e/5e5b59d1.png" width="32" height="32" border="0" alt="885443eeb029d7cbca537be10edca5eb6c920401" hspace="5" class="pict"  /><br />バーストのタイミングで<strong>LB（ハート・オブ・パーゲーション）</strong>を発動します。
+  </li>
+  <li>
+    <img src="https://livedoor.blogimg.jp/masyumaroking/imgs/1/1/1162ea7b.png" width="32" height="32" border="0" alt="8f0999ae68bff865ab683d7f1059024d126b013e" hspace="5" class="pict"  /><br />
+    味方が前線に突っ込んだら、それに合わせて<strong>セラフストライク</strong>を使用します。
+  </li>
+  <li>
+    <img src="https://livedoor.blogimg.jp/masyumaroking/imgs/f/8/f80d55fe.png" width="32" height="32" border="0" alt="928a4cb28079785539b6b24b6c890db6a5691703" hspace="5" class="pict"  /><br /><img src="https://livedoor.blogimg.jp/masyumaroking/imgs/3/9/3922e90e.png" width="32" height="32" border="0" alt="67c045d9c3c41f736c36022272cefd8c0980f19f" hspace="5" class="pict"  /><br />
+    <strong>グレアジャ</strong
+    >や<strong>ハート・オブ・ミゼリ</strong>を撃ちながら、安全な位置まで後退します。
+  </li>
+</ol>
+<p style="background-color: #f0f0f0; padding: 10px; border-radius: 5px">
+  <strong>💡 Pro Tip:</strong>
+  バーストの際は常に周囲の状況を把握し、味方の動きに合わせて行動することが重要です。また、LBの使用タイミングを誤ると大きなチャンスを逃すことになるので、慎重に判断しましょう。
+</p>
+
+]]>
+</content:encoded>
+</item>
+<item rdf:about="https://ff14.masyumaroking.com/archives/5212728.html">
+<title>FF14 パッチ7.1 PVP(フロントライン) 学者立ち回り完全ガイド 📚</title>
+<link>https://ff14.masyumaroking.com/archives/5212728.html</link>
+<description>
+  🎮 FF14 パッチ7.1 PVP(フロントライン) 学者立ち回り完全ガイド 📚
+
+  エオルゼアの戦術家の皆さん！パッチ7.1で学者の立ち回りに変更はありませんが、改めて効果的な戦い方を確認しましょう。
+
+  🔑 抑えておきたいポイント
+  
+    📌 基本的な動きは7.0から変更なし
+  ...</description>
+<dc:creator>masyumaroking</dc:creator>
+<dc:date>2024-11-17T21:12:17+09:00</dc:date>
+<dc:subject></dc:subject>
+<content:encoded><![CDATA[<article class="pvp-guide">
+  <h1>🎮 FF14 パッチ7.1 PVP(フロントライン) 学者立ち回り完全ガイド 📚</h1>
+
+  <p>エオルゼアの戦術家の皆さん！パッチ7.1で学者の立ち回りに変更はありませんが、改めて効果的な戦い方を確認しましょう。</p>
+
+  <h2>🔑 抑えておきたいポイント</h2>
+  <ul>
+    <li>📌 基本的な動きは7.0から<span style="color: #4169e1;">変更なし</span></li>
+    <li>🔮 <span style="color: #32cd32;">蠱毒法を打ち、展開戦術でばら撒いて</span>敵全体にダメージを与える</li>
+    <li>🛡️ 防御している敵がいたら<span style="color: #ff4500;">すかさず「連環計」を入れる</span></li>
+  </ul>
+
+  <h2>💥 バーストタイムの立ち回り</h2>
+
+  <h3>パターンA: 通常バースト</h3>
+  <ol>
+    <li>⚡ スプリントを使用（基本）</li>
+    <li><img src="https://livedoor.blogimg.jp/masyumaroking/imgs/a/d/ad8414f7.png" width="64" height="64" border="0" alt="5f98fdab5e9b3c01f61588afd6f60ceeb8fc7966" hspace="5" class="pict"/><br><span style="color: #4169e1;">疾風怒濤の計</span>を発動</li>
+    <li><img src="https://livedoor.blogimg.jp/masyumaroking/imgs/5/c/5c946d0f.png" width="64" height="64" border="0" alt="f1a089378baca67848f466998eaf675ca65b241f" hspace="5" class="pict"/><br> <span style="color: #32cd32;">蠱毒法</span>を敵に当てる</li>
+    <li><img src="https://livedoor.blogimg.jp/masyumaroking/imgs/2/f/2fa7ef8d.png" width="64" height="64" border="0" alt="ba157dccbbb4761461ca40b5e03c2a882498cdf3" hspace="5" class="pict"/><br> <span style="color: #32cd32;">展開戦術</span>でばら撒く</li>
+    <li><img src="https://livedoor.blogimg.jp/masyumaroking/imgs/c/f/cf6c9825.png" width="64" height="64" border="0" alt="f6608e86b2f0526d4f9fd593eac7cb7e8a674668" hspace="5" class="pict"/><br><span style="color: #ff4500;">極炎法</span>で追撃</li>
+  </ol>
+
+  <h3>パターンB: LBが溜まっている時</h3>
+  <ol>
+    <li>⚡ スプリントを使用（基本）</li>
+    <li><img src="https://livedoor.blogimg.jp/masyumaroking/imgs/4/7/47564b49.png" width="64" height="64" border="0" alt="fb3ffdaf3d55f8c9813f1a0d827a7cc736cd8802" hspace="5" class="pict"  /><br /> <span style="color: #4169e1;">セラフィズム</span>を使用</li>
+    <li><img src="https://livedoor.blogimg.jp/masyumaroking/imgs/5/c/5c946d0f.png" width="64" height="64" border="0" alt="f1a089378baca67848f466998eaf675ca65b241f" hspace="5" class="pict"  /><br /> <span style="color: #32cd32;">蠱毒法</span>を敵に当てる</li>
+    <li><img src="https://livedoor.blogimg.jp/masyumaroking/imgs/2/f/2fa7ef8d.png" width="64" height="64" border="0" alt="ba157dccbbb4761461ca40b5e03c2a882498cdf3" hspace="5" class="pict"  /><br /> <span style="color: #32cd32;">展開戦術</span>でばら撒く</li>
+    <li><img src="https://livedoor.blogimg.jp/masyumaroking/imgs/4/3/43e15ce6.png" width="64" height="64" border="0" alt="7f4ce8d90ce96634d7c028ef2990dfc9f61b8417" hspace="5" class="pict"  /><br /> <span style="color: #ff4500;">セラフィックヘイロー</span>で範囲追撃</li>
+  </ol>
+
+  <div class="pro-tip" style="background-color: #f0f8ff; padding: 15px; border-radius: 5px; margin-top: 20px;">
+    <h4>💡 Pro Tip:</h4>
+    <p>この戦術を使えば、<span style="color: #ff4500;">アシストポイントが大幅に上昇</span>します。チームに大きく貢献できるでしょう！</p>
+  </div>
+
+  <h2>🌟 まとめ</h2>
+  <p>学者の強みは広範囲へのダメージ散布と柔軟な戦術対応です。敵の動きをよく観察し、チャンスを逃さず<span style="color: #32cd32;">蠱毒法と展開戦術のコンボ</span>を決めましょう。そして、防御中の敵には<span style="color: #4169e1;">連環計</span>を忘れずに！</p>
+
+  <p>エオルゼアの戦場で、あなたの戦術が勝利をもたらしますように。頑張ってください！ 💪✨</p>
+</article>
+
+<style>
+  .pvp-guide {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6;
+  }
+  h1, h2, h3, h4 {
+    color: #333;
+  }
+  ul, ol {
+    padding-left: 20px;
+  }
+  .pro-tip {
+    border-left: 5px solid #4169e1;
+  }
+</style>
+]]>
+</content:encoded>
+</item>
+
+</rdf:RDF>
