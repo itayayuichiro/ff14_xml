@@ -1,0 +1,32 @@
+name: Update JSON File
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # 毎日午前0時に実行
+  workflow_dispatch:  # 手動実行用
+
+jobs:
+  update-json:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+
+      - name: Install dependencies
+        run: |
+          gem install nokogiri
+          gem install json
+
+      - name: Run Ruby script
+        run: ruby crwaler.rb
+
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name 'GitHub Action'
+          git config --global user.email 'action@github.com'
+          git add site_info.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update site_info.json" && git push)
