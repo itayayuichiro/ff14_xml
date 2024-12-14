@@ -63,7 +63,7 @@ def sokuho_fetch_site_info(url)
       title: title.text.strip,
       link: title[:href],
       date: art.at_css('.article-header-date time')[:datetime],
-      category: art.at_css('.article-category1')&.text&.strip,
+      category: art.at_css('.article-category1')&.text&.strip || "",
       site: 'FF14速報'
     }
   end
