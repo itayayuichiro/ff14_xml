@@ -2,7 +2,7 @@ name: Update JSON File
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # 毎日午前0時に実行
+    - cron: '*/5 * * * *'
   workflow_dispatch:  # 手動実行用
 
 jobs:
