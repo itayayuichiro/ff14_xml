@@ -8,8 +8,21 @@ on:
 jobs:
   update-json:
     runs-on: ubuntu-latest
+
+    permissions:
+      actions: write
+      checks: write
+      contents: write
+      deployments: write
+      issues: write
+      packages: write
+      pull-requests: write
+      repository-projects: write
+      security-events: write
+      statuses: write
+
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
@@ -26,7 +39,8 @@ jobs:
 
       - name: Commit and push if changed
         run: |
-          git config --global user.name 'itaya_yuichiro@kakaku.com'
+          git config --global user.name 'itaya_yuichiro'
           git config --global user.email 'mr.itaya.magic@gmail.com'
           git add site_info.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update site_info.json" && git push)
+          git commit -m "generated"
+          git push
