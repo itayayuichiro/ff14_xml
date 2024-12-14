@@ -37,9 +37,10 @@ end
 def main
   top_url = 'http://blog.livedoor.jp/umadori0726/'
   articles = fetch_site_info(top_url)
-  10.times do |i|
+  2.times do |i|
     top_url = 'http://blog.livedoor.jp/umadori0726/?p=' + (i+2).to_s
     articles = articles + fetch_site_info(top_url)
+    sleep 0.5
   end
 
   file_path = 'site_info.json'
