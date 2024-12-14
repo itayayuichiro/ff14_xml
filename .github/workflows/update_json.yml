@@ -3,7 +3,7 @@ name: Update JSON File
 on:
   schedule:
     - cron: '*/5 * * * *'
-  workflow_dispatch:  # 手動実行用
+  # workflow_dispatch:  # 手動実行用
 
 jobs:
   update-json:
