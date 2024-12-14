@@ -22,7 +22,7 @@ jobs:
           gem install json
 
       - name: Run Ruby script
-        run: ruby crwaler.rb
+        run: ruby crawler.rb
 
       - name: Commit and push if changed
         run: |
