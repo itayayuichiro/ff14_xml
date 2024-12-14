@@ -51,7 +51,7 @@ def main
   # 重複チェックと追加
   articles.each do |article|
     unless existing_data.any? { |item| item[:link] == article[:link] }
-      existing_data << article
+      existing_data.unshift(article)
     end
   end
 
