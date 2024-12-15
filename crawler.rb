@@ -26,7 +26,7 @@ def umatori_fetch_site_info(url)
     hash = {
       title: title.text,
       link: title[:href],
-      date: DateTime.strptime(li.at_css('.postinfo').text, "%Y年%m月%d日%H:%M"),
+      date: DateTime.strptime(li.at_css('.postinfo').text, "%Y年%m月%d日%H:%M").to_s,
       category: li.at_css('.catlink').text,
       site: '馬鳥速報'
     }
@@ -44,7 +44,7 @@ def hikasen_fetch_site_info(url)
     hash = {
       title: title.text.strip,
       link: title[:href],
-      date: DateTime.strptime(art.at_css('.entry_date').text.strip.gsub(" ", ""), "%Y年%m月%d日%H:%M"),
+      date: DateTime.strptime(art.at_css('.entry_date').text.strip.gsub(" ", ""), "%Y年%m月%d日%H:%M").to_s,
       category: art.at_css('.entry_category_name').text.strip,
       site: 'FF14ひかせん速報'
     }
