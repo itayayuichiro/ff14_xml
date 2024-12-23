@@ -27,7 +27,7 @@ def umatori_fetch_site_info(url)
       title: title.text,
       link: title[:href],
       date: DateTime.strptime(li.at_css('.postinfo').text, "%Y年%m月%d日%H:%M").to_s,
-      category: li.at_css('.catlink')&.text,
+      category: li.at_css('.catlink')&.text || '',
       site: '馬鳥速報'
     }
   end
