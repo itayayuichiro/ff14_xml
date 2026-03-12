@@ -109,7 +109,6 @@ def main
   articles = []
   articles = articles + umatori
   articles = articles + hikasen
-  articles = articles + sokuho
 
   file_path = 'site_info.json'
 
